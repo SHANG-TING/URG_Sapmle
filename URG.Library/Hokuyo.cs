@@ -6,7 +6,7 @@ namespace URG.Library {
     /// <summary>
     /// Supports the Hokuyo sensor.
     /// </summary>
-    internal class Hokuyo: IDisposable {
+    public class Hokuyo: IDisposable {
         private bool _disposed;
         public void Dispose() {
             Dispose(true);
